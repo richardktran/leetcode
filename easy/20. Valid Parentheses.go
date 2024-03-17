@@ -32,6 +32,6 @@ func ValidParenthesesTest() {
 	println(isValid("([)]"))
 }
 
-func main() {
-	ValidParenthesesTest()
-}
+// func main() {
+// 	ValidParenthesesTest()
+// }
