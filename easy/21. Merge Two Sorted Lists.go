@@ -61,6 +61,6 @@ func MergeTwoSortedListsTest() {
 	fmt.Println(mergeTwoLists2(l1, l2))
 }
 
-func main() {
-	MergeTwoSortedListsTest()
-}
+// func main() {
+// 	MergeTwoSortedListsTest()
+// }
