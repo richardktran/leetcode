@@ -31,6 +31,6 @@ func FindMinArrowShotsTest() {
 	fmt.Println(findMinArrowShots([][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}}))
 }
 
-func main() {
-	FindMinArrowShotsTest()
-}
+// func main() {
+// 	FindMinArrowShotsTest()
+// }
