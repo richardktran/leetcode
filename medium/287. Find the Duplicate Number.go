@@ -23,6 +23,6 @@ func FindDuplicateTest() {
 	fmt.Println(findDuplicate([]int{3, 3, 3, 3, 3}))
 }
 
-func main() {
-	FindDuplicateTest()
-}
+// func main() {
+// 	FindDuplicateTest()
+// }
