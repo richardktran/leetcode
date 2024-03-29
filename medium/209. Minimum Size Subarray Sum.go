@@ -32,6 +32,6 @@ func minSubArrayLenTest() {
 	println(minSubArrayLen(11, []int{1, 1, 1, 1, 1, 1, 1, 1})) // 0
 }
 
-func main() {
-	minSubArrayLenTest()
-}
+// func main() {
+// 	minSubArrayLenTest()
+// }
