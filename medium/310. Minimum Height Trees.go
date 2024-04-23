@@ -2,66 +2,44 @@ package main
 
 import "fmt"
 
-type findMinHeightTreesNode struct {
-	val   int
-	depth int
-}
+func findMinHeightTrees(n int, edges [][]int) []int {
+	if n == 1 {
+		return []int{0}
+	}
 
-func MHT(root int, edgeList [][]int, n, minDepth int) int {
-	var stack []findMinHeightTreesNode
-	var visited = make([]bool, n)
-	stack = append(stack, findMinHeightTreesNode{root, 0})
+	// Create a graph
+	var graph = make([][]int, n)
+	var degree = make([]int, n)
+	for _, edge := range edges {
+		graph[edge[0]] = append(graph[edge[0]], edge[1])
+		graph[edge[1]] = append(graph[edge[1]], edge[0])
+		degree[edge[0]]++
+		degree[edge[1]]++
+	}
 
-	maxDepth := 0
-
-	for len(stack) > 0 {
-		u := stack[len(stack)-1].val
-		depth := stack[len(stack)-1].depth
-		stack = stack[:len(stack)-1]
-
-		if depth > maxDepth {
-			maxDepth = depth
+	// Create a queue
+	var queue []int
+	for i := 0; i < n; i++ {
+		if degree[i] == 1 {
+			queue = append(queue, i)
 		}
+	}
 
-		if depth > minDepth {
-			return n + 1
-		}
-
-		visited[u] = true
-
-		for _, v := range edgeList[u] {
-			if !visited[v] {
-				visited[v] = true
-				stack = append(stack, findMinHeightTreesNode{v, depth + 1})
+	for n > 2 {
+		var nextQueue []int
+		for _, leaf := range queue {
+			n--
+			for _, neighbor := range graph[leaf] {
+				degree[neighbor]--
+				if degree[neighbor] == 1 {
+					nextQueue = append(nextQueue, neighbor)
+				}
 			}
 		}
+		queue = nextQueue
 	}
 
-	return maxDepth
-}
-
-func findMinHeightTrees(n int, edges [][]int) []int {
-	var edgeList = make([][]int, n*2)
-
-	for _, edge := range edges {
-		edgeList[edge[0]] = append(edgeList[edge[0]], edge[1])
-		edgeList[edge[1]] = append(edgeList[edge[1]], edge[0])
-	}
-
-	minDepth := n + 1
-	var result []int
-
-	for i := 0; i < n; i++ {
-		mht := MHT(i, edgeList, n, minDepth)
-		if mht < minDepth {
-			minDepth = mht
-			result = []int{i}
-		} else if mht == minDepth {
-			result = append(result, i)
-		}
-	}
-
-	return result
+	return queue
 }
 
 func findMinHeightTreesTest() {
@@ -69,6 +47,6 @@ func findMinHeightTreesTest() {
 	fmt.Println(findMinHeightTrees(6, [][]int{{3, 0}, {3, 1}, {3, 2}, {3, 4}, {5, 4}})) // [3, 4]
 }
 
-func main() {
-	findMinHeightTreesTest()
-}
+// func main() {
+// 	findMinHeightTreesTest()
+// }
