@@ -65,7 +65,7 @@
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) - [Solution](./medium/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K.go)
 - [3075. Maximize Happiness of Selected Children](https://leetcode.com/problems/maximize-happiness-of-selected-children/) - [Solution](./medium/3075.%20Maximize%20Happiness%20of%20Selected%20Children.go)
 
-## Hard (41,42,84,85,514,834,857,992,1289,2444)
+## Hard
 - [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) - [Solution](./hard/41.%20First%20Missing%20Positive.go)
 - [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - [Solution](./hard/42.%20Trapping%20Rain%20Water.go)
 - [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) - [Solution](./hard/84.%20Largest%20Rectangle%20in%20Histogram.go)
