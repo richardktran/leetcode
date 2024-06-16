@@ -16,13 +16,11 @@
 
 
 ## String
-### Easy
 - [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/) - [Solution](./easy/13.%20Roman%20to%20Integer.go)
 - [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) - [Solution](./easy/14.%20Longest%20Common%20Prefix.go)
 - [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/) - [Solution](./easy/58.%20Length%20of%20Last%20Word.go)
 - [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) - [Solution](./easy/205.%20Isomorphic%20Strings.go)
 - [2000. Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/) - [Solution](./easy/2000.%20Reverse%20Prefix%20of%20Word.go)
-### Medium
 
 
 ## Stack, Queue
@@ -49,8 +47,10 @@
 - [442. Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) - [Solution](./medium/442.%20Find%20All%20Duplicates%20in%20an%20Array.go)
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) - [Solution](./medium/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K.go)
 ### Hard
+- [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) - [Solution](./hard/41.%20First%20Missing%20Positive.go)
 - [752. Open the Lock](https://leetcode.com/problems/open-the-lock/) - [Solution](./medium/752.%20Open%20the%20Lock.go)
 - [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) - [Solution](./medium/1915.%20Number%20of%20Wonderful%20Substrings.go)
+
 
 
 
@@ -95,19 +95,25 @@
 - [2997. Minimum Number of Operations to Make Array XOR Equal to K](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) - [Solution](./medium/2997.%20Minimum%20Number%20of%20Operations%20to%20Make%20Array%20XOR%20Equal%20to%20K.go)
 ### Hard
 - [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) - [Solution](./medium/786.%20K-th%20Smallest%20Prime%20Fraction.go) (Binary search tree, Heap, Two-pointers)
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - [Solution](./hard/42.%20Trapping%20Rain%20Water.go) (Dynamic programming)
 
 
 ## Sliding window (Medium)
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) - [Solution](./medium/209.%20Minimum%20Size%20Subarray%20Sum.go)
 - [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) - [Solution](./medium/713.%20Subarray%20Product%20Less%20Than%20K.go)
+- [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) - [Solution](./hard/992.%20Subarrays%20with%20K%20Different%20Integers.go)
+- [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) - [Solution](./hard/2444.%20Count%20Subarrays%20With%20Fixed%20Bounds.go)
 - [2958. Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) - [Solution](./medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.go)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) - [Solution](./medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.go)
 
 
 ## Heap (Priority Queue)
+### Medium
 - [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) - [Solution](./medium/786.%20K-th%20Smallest%20Prime%20Fraction.go) (Binary search tree, Heap, Two-pointers)
 ### Hard
+- [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) - [Solution](./hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.go)
 - [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) - [Solution](./medium/2812.%20Find%20the%20Safest%20Path%20in%20a%20Grid.go) (Heap, Binary Search, BFS)
+
 
 ## Tree
 ### Easy
@@ -128,6 +134,8 @@
 ### Medium
 - [29. Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) - [Solution](./medium/29.%20Sum%20Root%20to%20Leaf%20Numbers.go)
 - [310. Minimum Height Trees](https://leetcode.com/problems/minimum-height-trees/) - [Solution](./medium/310.%20Minimum%20Height%20Trees.go)
+### Hard
+- [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) - [Solution](./hard/834.%20Sum%20of%20Distances%20in%20Tree.go) (DP)
 
 
 ## Matrix (2-dimensions)
@@ -142,6 +150,7 @@
 - [1992. Find All Groups of Farmland](https://leetcode.com/problems/find-all-groups-of-farmland/) - [Solution](./medium/1992.%20Find%20All%20Groups%20of%20Farmland.go)
 ### Hard
 - [2812. Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/) - [Solution](./medium/2812.%20Find%20the%20Safest%20Path%20in%20a%20Grid.go) (Heap, Binary Search, BFS)
+- [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) - [Solution](./hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.go)(DP)
 
 
 
@@ -151,6 +160,12 @@
 ### Medium
 - [678. Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/) - [Solution](./medium/678.%20Valid%20Parenthesis%20String.go)
 - [2370. Longest Ideal Subsequence](https://leetcode.com/problems/longest-ideal-subsequence/) - [Solution](./medium/2370.%20Longest%20Ideal%20Subsequence.go)
+### Hard
+- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - [Solution](./hard/42.%20Trapping%20Rain%20Water.go)(Two Pointers)
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) - [Solution](./hard/85.%20Maximal%20Rectangle.go) (Histogram)
+- [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) - [Solution](./hard/514.%20Freedom%20Trail.go)
+- [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) - [Solution](./hard/834.%20Sum%20of%20Distances%20in%20Tree.go) (Graph, DFS)
+- [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) - [Solution](./hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.go)(Matrix)
 
 
 
@@ -159,16 +174,6 @@
 - [861. Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/) - [Solution](./medium/861.%20Score%20After%20Flipping%20Matrix.go)
 - [1915. Number of Wonderful Substrings](https://leetcode.com/problems/number-of-wonderful-substrings/) - [Solution](./medium/1915.%20Number%20of%20Wonderful%20Substrings.go)
 
-
-
-## Hard
-- [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/) - [Solution](./hard/41.%20First%20Missing%20Positive.go)
-- [42. Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - [Solution](./hard/42.%20Trapping%20Rain%20Water.go)
+## Histogram (Left min, right min)
 - [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) - [Solution](./hard/84.%20Largest%20Rectangle%20in%20Histogram.go)
-- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) - [Solution](./hard/85.%20Maximal%20Rectangle.go)
-- [514. Freedom Trail](https://leetcode.com/problems/freedom-trail/) - [Solution](./hard/514.%20Freedom%20Trail.go)
-- [834. Sum of Distances in Tree](https://leetcode.com/problems/sum-of-distances-in-tree/) - [Solution](./hard/834.%20Sum%20of%20Distances%20in%20Tree.go)
-- [857. Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/) - [Solution](./hard/857.%20Minimum%20Cost%20to%20Hire%20K%20Workers.go)
-- [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) - [Solution](./hard/992.%20Subarrays%20with%20K%20Different%20Integers.go)
-- [1289. Minimum Falling Path Sum II](https://leetcode.com/problems/minimum-falling-path-sum-ii/) - [Solution](./hard/1289.%20Minimum%20Falling%20Path%20Sum%20II.go)
-- [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) - [Solution](./hard/2444.%20Count%20Subarrays%20With%20Fixed%20Bounds.go)
+- [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) - [Solution](./hard/85.%20Maximal%20Rectangle.go) (DP)
