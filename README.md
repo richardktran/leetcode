@@ -106,6 +106,8 @@
 - [2958. Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) - [Solution](./medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.go)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) - [Solution](./medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.go)
 
+- [1052. Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/description) - [Solution](https://leetcode.com/problems/grumpy-bookstore-owner/submissions/1295872666?envType=daily-question&envId=2024-06-21)
+
 
 ## Heap (Priority Queue)
 ### Medium
