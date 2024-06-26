@@ -102,6 +102,7 @@
 - [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) - [Solution](./medium/209.%20Minimum%20Size%20Subarray%20Sum.go)
 - [713. Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) - [Solution](./medium/713.%20Subarray%20Product%20Less%20Than%20K.go)
 - [992. Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) - [Solution](./hard/992.%20Subarrays%20with%20K%20Different%20Integers.go)
+- [1248. Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/description) - [Solution](https://leetcode.com/problems/count-number-of-nice-subarrays/submissions/1296340982?envType=daily-question&envId=2024-06-22)
 - [2444. Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) - [Solution](./hard/2444.%20Count%20Subarrays%20With%20Fixed%20Bounds.go)
 - [2958. Length of Longest Subarray With at Most K Frequency](https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/) - [Solution](./medium/2958.%20Length%20of%20Longest%20Subarray%20With%20at%20Most%20K%20Frequency.go)
 - [2962. Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/) - [Solution](./medium/2962.%20Count%20Subarrays%20Where%20Max%20Element%20Appears%20at%20Least%20K%20Times.go)
@@ -126,6 +127,7 @@
 - [979. Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) - [Solution](./medium/979.%20Distribute%20Coins%20in%20Binary%20Tree.go)
 - [988. Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) - [Solution](./medium/988.%20Smallest%20String%20Starting%20From%20Leaf.go)
 - [1325. Delete Leaves With a Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) - [Solution](./medium/1325.%20Delete%20Leaves%20With%20a%20Given%20Value.go)
+- [1382. Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/description) - [Solution](https://leetcode.com/problems/balance-a-binary-search-tree/submissions/1301022048?envType=daily-question&envId=2024-06-26)
 ### Hard
 - [786. K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/) - [Solution](./medium/786.%20K-th%20Smallest%20Prime%20Fraction.go) (Binary search tree, Heap, Two-pointers)
 
